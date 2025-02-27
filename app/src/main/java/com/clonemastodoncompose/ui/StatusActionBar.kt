@@ -1,4 +1,4 @@
-package com.clonemastodoncompose
+package com.clonemastodoncompose.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
@@ -22,6 +22,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.clonemastodoncompose.R
 
 @Composable
 fun StatusActionBar(paddingValues: PaddingValues) {

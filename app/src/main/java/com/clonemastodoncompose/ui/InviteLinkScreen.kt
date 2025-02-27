@@ -1,4 +1,4 @@
-package com.clonemastodoncompose
+package com.clonemastodoncompose.ui
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Box
@@ -38,6 +38,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.clonemastodoncompose.R
 import com.clonemastodoncompose.ui.theme.CloneMastodonComposeTheme
 
 
