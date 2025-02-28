@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.clonemastodoncompose.ui.ProfileScreen
+import com.clonemastodoncompose.ui.SplashScreen
 import com.clonemastodoncompose.ui.theme.CloneMastodonComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CloneMastodonComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ProfileScreen(innerPadding)
+                    SplashScreen(innerPadding)
                 }
             }
         }
